@@ -208,7 +208,7 @@ def train_model(model, train_loader, num_epochs=3):
 
         print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {running_loss/len(train_loader):.4f}')
 
-
+```
 ## OUTPUT
 ### Training Loss per Epoch
 <img width="464" height="150" alt="image" src="https://github.com/user-attachments/assets/242cae6b-e20a-43b0-968a-8af0c01f88bd" />
