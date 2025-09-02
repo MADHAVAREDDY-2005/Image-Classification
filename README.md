@@ -115,12 +115,36 @@ Provides faster convergence for deep CNNs.
 ## DESIGN STEPS
 
 ### STEP 1:
-Write your own steps
+
+Import the required libraries such as PyTorch, Torchvision, NumPy, and Matplotlib.
 
 ### STEP 2:
 
+Load the FashionMNIST dataset and apply transformations (normalization, tensor conversion).
+
 ### STEP 3:
 
+Split the dataset into training and testing sets.
+
+### STEP 4:
+
+Define the CNN architecture with convolutional, pooling, and fully connected layers.
+
+### STEP 5:
+
+Specify the loss function (CrossEntropyLoss) and optimizer (Adam).
+
+### STEP 6:
+
+Train the model using forward pass, loss computation, backpropagation, and parameter updates.
+
+### STEP 7:
+
+Evaluate the model on the test dataset and calculate accuracy.
+
+### STEP 8:
+
+Test the trained model on new/unseen FashionMNIST images.
 
 ## PROGRAM
 
@@ -187,20 +211,21 @@ def train_model(model, train_loader, num_epochs=3):
 
 ## OUTPUT
 ### Training Loss per Epoch
+<img width="464" height="150" alt="image" src="https://github.com/user-attachments/assets/242cae6b-e20a-43b0-968a-8af0c01f88bd" />
 
 
 ### Confusion Matrix
 
-Include confusion matrix here
+<img width="969" height="765" alt="image" src="https://github.com/user-attachments/assets/3d0d6931-6fa6-43b5-bede-3681f5413359" />
 
 ### Classification Report
 
-Include Classification Report here
+<img width="841" height="404" alt="image" src="https://github.com/user-attachments/assets/1de1bf46-9054-4aa0-9eee-c5246a820b68" />
 
 
 ### New Sample Data Prediction
 
-Include your sample input and output 
+<img width="1029" height="682" alt="image" src="https://github.com/user-attachments/assets/ab7af365-5ea1-4fae-bdbd-eb1d229af8ba" />
 
 ## RESULT
-Include your result here.
+The Convolutional Neural Network was successfully implemented for FashionMNIST image classification. The model achieved good accuracy on the test dataset and produced reliable predictions for new images, proving its effectiveness in extracting spatial features from images.
