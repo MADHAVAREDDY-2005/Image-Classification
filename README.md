@@ -23,10 +23,10 @@ Test set: 10,000 images.
 Images are preprocessed (normalized and converted to tensors) before being passed into the CNN.
 ## Neural Network Model
 
-Include the neural network model diagram.
+<img width="1499" height="709" alt="image" src="https://github.com/user-attachments/assets/0b2ff349-e824-4264-affa-56b9bb62ea8e" />
 
 
-Neural Network Model Explanation
+## Neural Network Model Explanation
 ### 1. Architecture
 
 The model is a deep convolutional neural network consisting of convolutional, pooling, and fully connected layers.
